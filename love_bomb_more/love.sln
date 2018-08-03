@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "love", "love.csproj", "{7682C67E-36F8-81C3-9351-7DBFA5B1C839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "love.Plugins", "love.Plugins.csproj", "{65553D25-4B6C-80C0-BB4C-5E3CC89D0296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "love.Editor.Plugins", "love.Editor.Plugins.csproj", "{05C3916A-71C2-B5C4-3CE6-F1DED79AA6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "love.Editor", "love.Editor.csproj", "{99F5B147-2469-1145-8FB2-84C85AE173DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7682C67E-36F8-81C3-9351-7DBFA5B1C839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7682C67E-36F8-81C3-9351-7DBFA5B1C839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7682C67E-36F8-81C3-9351-7DBFA5B1C839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7682C67E-36F8-81C3-9351-7DBFA5B1C839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65553D25-4B6C-80C0-BB4C-5E3CC89D0296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65553D25-4B6C-80C0-BB4C-5E3CC89D0296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65553D25-4B6C-80C0-BB4C-5E3CC89D0296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65553D25-4B6C-80C0-BB4C-5E3CC89D0296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C3916A-71C2-B5C4-3CE6-F1DED79AA6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C3916A-71C2-B5C4-3CE6-F1DED79AA6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C3916A-71C2-B5C4-3CE6-F1DED79AA6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C3916A-71C2-B5C4-3CE6-F1DED79AA6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F5B147-2469-1145-8FB2-84C85AE173DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F5B147-2469-1145-8FB2-84C85AE173DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F5B147-2469-1145-8FB2-84C85AE173DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F5B147-2469-1145-8FB2-84C85AE173DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

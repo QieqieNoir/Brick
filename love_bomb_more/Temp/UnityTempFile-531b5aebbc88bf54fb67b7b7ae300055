@@ -1,0 +1,304 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.CoreModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.PhysicsModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.VehiclesModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ClothModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AIModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AnimationModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UIModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.IMGUIModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UNETModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.DirectorModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.WebModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ARModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UIElementsModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.StyleSheetsModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.AudioModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.GameCenterModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.GridModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.InputModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ParticlesLegacyModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.Physics2DModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TerrainModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.TilemapModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.VideoModule.dll
+-r:C:\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll
+-r:C:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+-r:C:/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+-r:C:/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
+-r:C:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+-r:"Assets/ThirdParties/TextMesh Pro/Plugins/Runtime DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll"
+-r:C:/Users/qieqi/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/Users/qieqi/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_1
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:DEVELOPMENT_BUILD
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+Assets/CombinedBehavior.cs
+Assets/combinedC.cs
+Assets/combinedH.cs
+Assets/ririri.cs
+Assets/Scripts/BombArea.cs
+Assets/Scripts/BombBehavior.cs
+Assets/Scripts/BombHover.cs
+Assets/Scripts/DontDestroy.cs
+Assets/Scripts/GameController.cs
+Assets/Scripts/GameSingleton.cs
+Assets/Scripts/MainMenu.cs
+Assets/Scripts/PieceBehavior.cs
+Assets/Scripts/PieceHover.cs
+Assets/Scripts/PlaneController.cs
+Assets/Scripts/PlayerBehaviorNetworking.cs
+Assets/Scripts/Replay.cs
+Assets/Scripts/WallGrid.cs
+Assets/ThirdParties/_MK/MKGlowFree/MKGlowFree.cs
+Assets/ThirdParties/GoogleARCore/Examples/ComputerVision/Scripts/ComputerVisionController.cs
+Assets/ThirdParties/GoogleARCore/Examples/ComputerVision/Scripts/EdgeDetector.cs
+Assets/ThirdParties/GoogleARCore/Examples/ComputerVision/Scripts/TextureReader.cs
+Assets/ThirdParties/GoogleARCore/Examples/ComputerVision/Scripts/TextureReaderApi.cs
+Assets/ThirdParties/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs
+Assets/ThirdParties/GoogleARCore/Examples/HelloAR/Scripts/PointcloudVisualizer.cs
+Assets/ThirdParties/GoogleARCore/Examples/HelloAR/Scripts/TrackedPlaneVisualizer.cs
+Assets/ThirdParties/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewInput.cs
+Assets/ThirdParties/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs
+Assets/ThirdParties/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewTrackedPoseDriver.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Anchor.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/AndroidPermissionsManager.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/AndroidPermissionsRequestResult.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/AnchorApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiApkInstallationStatus.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiApkInstallStatusExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiArStatus.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiAvailability.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiAvailabilityExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiCameraMetadata.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiConstants.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoords.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoordsExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateState.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateStateExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiLightEstimationMode.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiPlaneFindingMode.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiPoseData.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiPrestoConfig.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatus.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatusExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiTrackableType.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiTrackableTypeExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiTrackedPointOrientationMode.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiTrackedPointOrientationModeExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiTrackingState.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ApiUpdateMode.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/CameraApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/CameraMetadataApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/FrameApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/HitTestApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/ImageApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/LightEstimateApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/NativeSession.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/PlaneApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/PointApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/PoseApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/SessionApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/SessionConfigApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/TrackableApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Api/TrackableListApi.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/ApkAvailabilityStatus.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/ApkInstallationStatus.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/ARCoreSession.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/ARCoreSessionConfig.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Async/WaitForTaskCompletionYieldInstruction.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/AsyncTask.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/CameraImageBytes.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/CameraMetadataValue.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/DisplayUvCoords.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Frame.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/LightEstimate.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/LightEstimateState.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Managers/LifecycleManager.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Managers/TrackableManager.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/PointCloudPoint.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Session.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/SessionStatus.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/SessionStatusExtensions.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Trackable.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackableHit.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackableHitFlags.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackableQueryFilter.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackedPlane.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackedPoint.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackedPointOrientationMode.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/TrackingState.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Utility/ARCoreProjectSettings.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Utility/ARDebug.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Utility/ConversionHelper.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Utility/IntPtrEqualityComparer.cs
+Assets/ThirdParties/GoogleARCore/SDK/Scripts/Utility/MarshalingHelper.cs
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
+"Assets/ThirdParties/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+Assets/Unity-Logs-Viewer/Reporter/MultiKeyDictionary.cs
+Assets/Unity-Logs-Viewer/Reporter/Reporter.cs
+Assets/Unity-Logs-Viewer/Reporter/ReporterGUI.cs
+Assets/Unity-Logs-Viewer/Reporter/ReporterMessageReceiver.cs
+Assets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs
+Assets/Unity-Logs-Viewer/Reporter/Test/TestReporter.cs
+-r:C:\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll
+-r:C:\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll
+-r:C:\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll
+-r:C:\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll
+-r:C:\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll
+-sdk:unity

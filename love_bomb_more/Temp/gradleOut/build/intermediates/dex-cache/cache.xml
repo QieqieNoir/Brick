@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\qieqi\DaMoWang\2018Summer\love_bomb_more\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="9f3d3e32cdd44fcbf515f2825f68c63f2549e6b6">
+        <dex dex="C:\Users\qieqi\DaMoWang\2018Summer\love_bomb_more\Temp\gradleOut\build\intermediates\pre-dexed\debug\unity-classes_e410849e12b42519bb33397d1c007bfc0ab66f5c.jar" />
+    </item>
+
+</items>
